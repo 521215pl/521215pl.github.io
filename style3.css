@@ -1,0 +1,28 @@
+h1,h2,h3{
+    margin:0;
+}
+h1{
+    background: gray;
+}
+h2{
+    background: rgba(186, 199, 233, 0.89);
+    float:left;
+    width: 100px;
+    line-height: 200px;
+    margin-right: 20px;
+}
+.content::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+span{
+    font-weight: bold;
+}
+.content{
+    border: 1px solid gray;
+}
+
+.line h3, .line p{
+    display: inline;
+}
