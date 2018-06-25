@@ -1,0 +1,119 @@
+html,body,h1,p,ol,ul,li,a{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: white;
+    background: rgb(59, 58, 58);
+    height: 50px;
+    margin:0;
+    padding:10px;
+}
+header a{
+    color: white;
+}
+.middle{
+    width: 500px;
+    margin: 0 auto;
+}
+header h1{
+    display: block;
+    font-weight: bold;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+}
+.banner{
+    margin: 0;
+    height: 100px;
+    background: rgb(134, 192, 46);
+}
+.banner-1{
+    float: right;
+}
+.banner-1 p{
+    margin-top: 80px;
+    display: inline-block;
+    border: 1.5px solid rgb(59, 58, 58);
+    height: 25px;
+    width: 20px;
+    background: white;
+    text-align: center;
+}
+
+.main-botn{
+    border-bottom: 1px solid;
+}
+.main-botn2{
+    position: relative;
+    height: 40px;
+}
+.main-botn li{
+    width: 100px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid white;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.main-botn ul{
+    position: absolute;
+    bottom: -1px;
+}
+article{
+    margin-top: 20px;
+}
+footer{
+    color: white;
+    background: rgb(119, 118, 118);
+    width: 1880px;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+h4{
+    margin: 10px;
+}
+main p{
+    display: inline-block;
+    padding: 60px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+}
+.one p{
+    border: 1px solid black;
+    width: 230px;
+    height: 80px;
+    margin: 1px;
+    text-align: center;
+}
+.two p{
+    border: 1px solid black;
+    width: 230px;
+    height: 80px;
+    margin: 1px;
+    text-align: center;
+}
+.three p{
+    border: 1px solid black;
+    width: 230px;
+    height: 80px;
+    margin: 1px;
+    text-align: center;
+}
+
+
